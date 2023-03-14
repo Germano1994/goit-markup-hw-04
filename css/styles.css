@@ -311,8 +311,6 @@ padding-top: 120px;
 
 .team-card-content-wrapper {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -324,6 +322,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--color-navy-blue);
 margin-bottom: 8px;
+margin-top: 32px;
 }
 
 .team-spec {
@@ -339,8 +338,9 @@ color: var(--color-slate);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 36px;
+  gap: 24px;
   padding-bottom: 8px;
+  padding-top: 8px;
 }
 
 .social-list-item {
@@ -352,7 +352,7 @@ color: var(--color-slate);
 .social-list-link {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -360,7 +360,6 @@ color: var(--color-slate);
 }
 
 .socail-list-icon {
-  padding: 12px;
  fill: #F4F4FD;
 }
 
