@@ -240,14 +240,12 @@ body {
   background: #F4F4FD;
   border-radius: 4px;
   margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
 .discrip-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 24px;
-  margin-left: 100px;
+  
 }
 
 .subtitle-discrip {
@@ -335,6 +333,7 @@ body {
   text-align: center;
   padding-left: 16px;
   padding-right: 16px;
+  padding: 32px 16px;
 }
 
 .team-mait {
@@ -344,7 +343,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .team-spec {
@@ -360,14 +358,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 8px;
   margin-top: 8px;
-}
-
-.social-list-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-list-link {
@@ -399,8 +390,6 @@ body {
 }
 
 .title-customers {
-  display: flex;
-  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -518,7 +507,6 @@ body {
 
 .media-list-link {
   display: flex;
-  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -601,10 +589,14 @@ body {
 
 .picture-card {
   width: 360px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.picture-card-link:hover,
+.picture-card-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: block;
+}
 
 .picture-card-content-wrapper {
   padding-top: 32px;
